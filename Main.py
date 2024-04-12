@@ -79,5 +79,11 @@ while True:
         winsound.Beep(freq, dur)
         del pos
 
+    # Truncation search works with bottom arrows
+    pos = imagesearch("exchange5.png")
+    if pos[0] != -1:
+        winsound.Beep(freq, dur)
+        del pos
+
     # Sleep a little before looping
     time.sleep(0.05)

@@ -46,8 +46,11 @@ import pyautogui as pag
 import time
 from python_imagesearch.imagesearch import imagesearch
 
-# frequency is set to 500Hz
-freq = 500
+# Merc frequency is set to 500Hz
+freqMerc = 500
+
+# Gold frequency is set to 800Hz
+freqGold = 800
 
 # duration is set to 100 milliseconds
 dur = 500
@@ -58,25 +61,37 @@ while True:
     # 100% resolution square image search
     pos = imagesearch("exchange1.png")
     if pos[0] != -1:
-        winsound.Beep(freq, dur)
+        winsound.Beep(freqMerc, dur)
         del pos
 
     # 25% resolution square image search with truncation
     pos = imagesearch("exchange2.png")
     if pos[0] != -1:
-        winsound.Beep(freq, dur)
+        winsound.Beep(freqMerc, dur)
         del pos
 
     # Truncation search works with side arrows
     pos = imagesearch("exchange3.png")
     if pos[0] != -1:
-        winsound.Beep(freq, dur)
+        winsound.Beep(freqMerc, dur)
         del pos
 
     # Truncation search works with bottom arrows
     pos = imagesearch("exchange4.png")
     if pos[0] != -1:
-        winsound.Beep(freq, dur)
+        winsound.Beep(freqMerc, dur)
+        del pos
+
+    # Truncation search works with bottom arrows
+    pos = imagesearch("gold-dm1.png")
+    if pos[0] != -1:
+        winsound.Beep(freqGold, dur)
+        del pos
+
+    # Truncation search works with bottom arrows
+    pos = imagesearch("gold-dm2.png")
+    if pos[0] != -1:
+        winsound.Beep(freqGold, dur)
         del pos
 
     # Sleep a little before looping

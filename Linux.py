@@ -42,7 +42,7 @@ freqMerc = 500
 freqGold = 800
 
 # duration is set to 100 milliseconds
-dur = 500
+dur = 0.500
 
 
 # Forever loop...

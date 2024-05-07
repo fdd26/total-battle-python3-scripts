@@ -4,7 +4,7 @@
 #
 # Works with Python 3.12+
 #
-#
+# Linux version patch from Polish K103 clan: [PSS] Krzys
 #
 #
 # DOWNLOAD THIS:

@@ -49,9 +49,6 @@ from python_imagesearch.imagesearch import imagesearch
 # Merc frequency is set to 500Hz
 freqMerc = 500
 
-# Gold frequency is set to 800Hz
-freqGold = 800
-
 # duration is set to 100 milliseconds
 dur = 500
 
@@ -80,18 +77,6 @@ while True:
     pos = imagesearch("exchange4.png")
     if pos[0] != -1:
         winsound.Beep(freqMerc, dur)
-        del pos
-
-    # Truncation search works with bottom arrows
-    pos = imagesearch("gold-dm1.png")
-    if pos[0] != -1:
-        winsound.Beep(freqGold, dur)
-        del pos
-
-    # Truncation search works with bottom arrows
-    pos = imagesearch("gold-dm2.png")
-    if pos[0] != -1:
-        winsound.Beep(freqGold, dur)
         del pos
 
     # Sleep a little before looping

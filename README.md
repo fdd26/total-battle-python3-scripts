@@ -39,8 +39,6 @@ OR double-click on Main.py
     
 OPEN exchange.png to test, you should hear some beeps.    
     
-Original Python3 script forked from:    
-  https://github.com/TotalBattleBots/Exchange-Beep    
     
     
 MAC OS X instructions    
@@ -71,9 +69,16 @@ TYPE THIS to install Python3 dependencies:
     
 TYPE THIS to run the program    
 ----------------------------    
-  python Main.py    
+  python Linux.py    
     
-then use the Linux Python script from bash
+to use the Linux Python script from bash
+    
+    
+    
+Original Python3 script forked from:    
+====================================    
+  https://github.com/TotalBattleBots/Exchange-Beep    
+    
     
 A showcase of what this does can be found at :    
 A guide to install this can be found at      :    

@@ -59,6 +59,7 @@ while True:
     pos = imagesearch("crypt-gray-title.png")
     if pos[0] != -1:
         winsound.Beep(freqMerc, dur)
+        print( pos )
         del pos
 
     # Sleep a little before looping

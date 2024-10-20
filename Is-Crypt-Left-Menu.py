@@ -52,9 +52,9 @@ freqMerc = 500
 # duration is set to 100 milliseconds
 dur = 500
 
-# while 100 loops
+# while loops
 i = 1
-while i < 100:
+while i < 10:
     # 25% resolution square image search
     pos = imagesearch("crypt-left-menu.png")
     if pos[0] != -1:

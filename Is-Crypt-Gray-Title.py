@@ -46,16 +46,16 @@ import pyautogui as pag
 import time
 from python_imagesearch.imagesearch import imagesearch
 
-# Merc frequency is set to 500Hz
-freqMerc = 500
+# Merc frequency is set to 600Hz
+freqMerc = 600
 
 # duration is set to 100 milliseconds
 dur = 500
 
 
-# while 100 loops
+# while loops
 i = 1
-while i < 100:
+while i < 10:
     # 25% resolution square image search
     pos = imagesearch("crypt-gray-title.png")
     if pos[0] != -1:

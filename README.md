@@ -77,6 +77,7 @@ to use the Linux Python script from bash
     
 Original Python3 script forked from:    
 ====================================    
+  https://github.com/fdd26/Exchange-Beep    
   https://github.com/TotalBattleBots/Exchange-Beep    
     
     

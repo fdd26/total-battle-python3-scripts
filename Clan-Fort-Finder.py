@@ -28,9 +28,9 @@
 # pip3 install python_imagesearch
 #
 # TYPE THIS to run the program
-# python.exe Main.py
+# python.exe Clan-Fort-Finder.py
 #
-# OR double-click on Main.py
+# OR double-click on Clan-Fort-Finder.py
 #
 # OPEN exchange.png to test, you should hear some beeps.
 #
@@ -56,25 +56,19 @@ dur = 500
 # Forever loop...
 while True:
     # 100% resolution square image search
-    pos = imagesearch("exchange1.png")
+    pos = imagesearch("clan-fort-h.png")
     if pos[0] != -1:
         winsound.Beep(freqMerc, dur)
         del pos
 
     # 25% resolution square image search with truncation
-    pos = imagesearch("exchange2.png")
+    pos = imagesearch("clan-fort-v.png")
     if pos[0] != -1:
         winsound.Beep(freqMerc, dur)
         del pos
 
     # Truncation search works with side arrows
-    pos = imagesearch("exchange3.png")
-    if pos[0] != -1:
-        winsound.Beep(freqMerc, dur)
-        del pos
-
-    # Truncation search works with bottom arrows
-    pos = imagesearch("exchange4.png")
+    pos = imagesearch("clan-fort.png")
     if pos[0] != -1:
         winsound.Beep(freqMerc, dur)
         del pos
